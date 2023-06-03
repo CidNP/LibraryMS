@@ -12,7 +12,7 @@
     <style>
 
     body{
-        background-image: url('images/library.jpg')
+        background-image: url('images/lib.jpg')
         
     }
 
