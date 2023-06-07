@@ -273,7 +273,7 @@ elseif($msg=="fail"){
 
             <div class="rightinnerdiv">   
             <div id="studentrecord" class="innerright portion" style="display:none">
-            <Button class="greenbtn" >Student RECORD</Button>
+            <Button class="greenbtn" >MEMBERS RECORD</Button>
 
             <?php
             $u=new data;
