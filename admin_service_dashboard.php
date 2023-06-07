@@ -180,12 +180,12 @@ elseif($msg=="fail"){
                 <!-- <Button class="greenbtn"> ADMIN</Button> -->
                 <br>
                 <Button class="greenbtn" onclick="openpart('addbook')" ><img class="icons" src="images/icon/book.png" width="30px" height="30px"/>  ADD BOOK</Button>
-                <Button class="greenbtn" onclick="openpart('bookreport')" > <img class="icons" src="images/icon/open-book.png" width="30px" height="30px"/> BOOK REPORT</Button>
+                <Button class="greenbtn" onclick="openpart('bookreport')" > <img class="icons" src="images/icon/open-book.png" width="30px" height="30px"/> BOOK RECORD</Button>
                 <Button class="greenbtn" onclick="openpart('bookrequestapprove')"><img class="icons" src="images/icon/interview.png" width="30px" height="30px"/> BOOK REQUESTS</Button>
-                <Button class="greenbtn" onclick="openpart('addperson')"> <img class="icons" src="images/icon/add-user.png" width="30px" height="30px"/> ADD STUDENT</Button>
+                <Button class="greenbtn" onclick="openpart('addperson')"> <img class="icons" src="images/icon/add-user.png" width="30px" height="30px"/> ADD MEMBER</Button>
                 <Button class="greenbtn" onclick="openpart('studentrecord')"> <img class="icons" src="images/icon/monitoring.png" width="30px" height="30px"/> MEMBER RECORD</Button>
                 <Button class="greenbtn"  onclick="openpart('issuebook')"> <img class="icons" src="images/icon/test.png" width="30px" height="30px"/> ISSUE BOOK</Button>
-                <Button class="greenbtn" onclick="openpart('issuebookreport')"> <img class="icons" src="images/icon/checklist.png" width="30px" height="30px"/> ISSUE REPORT</Button>
+                <Button class="greenbtn" onclick="openpart('issuebookreport')"> <img class="icons" src="images/icon/checklist.png" width="30px" height="30px"/> BOOK REPORT</Button>
                 <a href="index.php"><Button class="greenbtn" ><img class="icons" src="images/icon/book.png" width="30px" height="30px"/> LOGOUT</Button></a>
             </div>
 
@@ -253,7 +253,7 @@ elseif($msg=="fail"){
 
             <div class="rightinnerdiv">   
             <div id="addperson" class="innerright portion" style="display:none">
-            <Button class="greenbtn" >ADD Person</Button>
+            <Button class="greenbtn" >ADD MEMBER</Button>
             <form action="addpersonserver_page.php" method="post" enctype="multipart/form-data">
             <label>Name:</label><input type="text" name="addname"/>
             </br>
@@ -273,7 +273,7 @@ elseif($msg=="fail"){
 
             <div class="rightinnerdiv">   
             <div id="studentrecord" class="innerright portion" style="display:none">
-            <Button class="greenbtn" >Student RECORD</Button>
+            <Button class="greenbtn" >MEMBER RECORD</Button>
 
             <?php
             $u=new data;
