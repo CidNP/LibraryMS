@@ -179,7 +179,7 @@ elseif($msg=="fail"){
             <div class="leftinnerdiv">
                 <!-- <Button class="greenbtn"> ADMIN</Button> -->
                 <br>
-                <Button class="greenbtn" onclick="openpart('addbook')" ><img class="icons" src="images/icon/book.png" width="30px" height="30px"/>  ADD BOOK</Button>
+                <Button class="greenbtn" onclick="openpart('addbook')" ><img class="igitcons" src="images/icon/book.png" width="30px" height="30px"/>  ADD BOOK</Button>
                 <Button class="greenbtn" onclick="openpart('bookreport')" > <img class="icons" src="images/icon/open-book.png" width="30px" height="30px"/> BOOK RECORD</Button>
                 <Button class="greenbtn" onclick="openpart('bookrequestapprove')"><img class="icons" src="images/icon/interview.png" width="30px" height="30px"/> BOOK REQUESTS</Button>
                 <Button class="greenbtn" onclick="openpart('addperson')"> <img class="icons" src="images/icon/add-user.png" width="30px" height="30px"/> ADD MEMBER</Button>
@@ -273,7 +273,7 @@ elseif($msg=="fail"){
 
             <div class="rightinnerdiv">   
             <div id="studentrecord" class="innerright portion" style="display:none">
-            <Button class="greenbtn" >MEMBERS RECORD</Button>
+            <Button class="greenbtn" >Student RECORD</Button>
 
             <?php
             $u=new data;
