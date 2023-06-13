@@ -8,4 +8,4 @@ Languages and Tools Used:
     iv) MySQL 
     v)  PHP
     vi) FIGMA
-    vii)LUCID
+    vii)LUCIDCHART
