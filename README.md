@@ -2,7 +2,7 @@
 
 
 HTML: 
-![alt text](https://en.wikipedia.org/wiki/HTML#/media/File:HTML5_logo_and_wordmark.svg "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/JavaScript-Logo.png "Logo Title Text 1")
 
 
 ## Languages and Tools Used:
