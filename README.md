@@ -5,22 +5,22 @@
 
 ## Languages and Tools Used:
     * HTML: 
-![alt text](https://github.com/CidNP/LMS/blob/main/html.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/html.png "HTML")
  
     * CSS: 
-![alt text](https://github.com/CidNP/LMS/blob/main/css.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/css.png "CSS")
 
     * JavaScript: 
-![alt text](https://github.com/CidNP/LMS/blob/main/JavaScript-Logo.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/JavaScript-Logo.png "JavaScript")
 
     * MySQL: 
-![alt text](https://github.com/CidNP/LMS/blob/main/MySQL-Logo.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/MySQL-Logo.png "MySQL")
 
     * PHP: 
-![alt text](https://github.com/CidNP/LMS/blob/main/newphp.svg "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/newphp.svg "PHP")
 
     * Figma: 
-![alt text](https://github.com/CidNP/LMS/blob/main/figma-1-logo-png-transparent.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/figma-1-logo-png-transparent.png "Figma")
 
     * LucidChart: 
-![alt text](https://github.com/CidNP/LMS/blob/main/lucidchart-logo-vector.png.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/lucidchart-logo-vector.png.png "LucidChart")
