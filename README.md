@@ -24,3 +24,6 @@
 
     * LucidChart: 
 ![alt text](https://github.com/CidNP/LMS/blob/main/lucidchart-logo-vector.png "LucidChart")
+
+
+The application is just used for this project. As shown in Screenshot above the Web-based application is going to be same as shown in the SS.[^note].
