@@ -17,7 +17,7 @@
 ![alt text](https://github.com/CidNP/LMS/blob/main/MySQL-Logo.png "Logo Title Text 1")
 
     * PHP: 
-![alt text](https://github.com/CidNP/LMS/blob/main/php1.png "Logo Title Text 1")
+![alt text](https://github.com/CidNP/LMS/blob/main/newphp.svg "Logo Title Text 1")
 
     * Figma: 
 ![alt text](https://github.com/CidNP/LMS/blob/main/figma-1-logo-png-transparent.png "Logo Title Text 1")
