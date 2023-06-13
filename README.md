@@ -23,4 +23,4 @@
 ![alt text](https://github.com/CidNP/LMS/blob/main/figma-1-logo-png-transparent.png "Figma")
 
     * LucidChart: 
-![alt text](https://github.com/CidNP/LMS/blob/main/lucidchart-logo-vector.png.png "LucidChart")
+![alt text](https://github.com/CidNP/LMS/blob/main/lucidchart-logo-vector.png "LucidChart")
