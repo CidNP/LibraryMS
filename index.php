@@ -19,8 +19,8 @@
 
     .login-form-3 .btnSubmit {
     font-weight: 600;
-    color: #0062cc;
-    background-color: #fff;
+    color: #fff;
+    background-color: #0062cc;
 }
 
 .login-form-3 h3 {
@@ -91,6 +91,8 @@ if(!empty($_REQUEST['msg'])){
                         <div class="form-group">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
+
+                        
                         <!-- <div class="form-group">
 
                             <a href="#" class="ForgetPwd" value="Login">Forget Password?</a>
