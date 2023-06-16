@@ -61,7 +61,7 @@ class data extends db {
         }
 
         else {
-            header("location: index.php?msg=Invalid Credentials");
+            header("location: index.php?msg=Invalid Credentials bot");
         }
 
     }
