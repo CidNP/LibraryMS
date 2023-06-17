@@ -373,7 +373,7 @@ class data extends db {
         }
 
         else {
-            header("location: index.php?msg=Invalid Credentials");
+            header("location: index.php?msg=Invalid Credentials Test");
         }
 
 
@@ -433,7 +433,7 @@ class data extends db {
         }
 
         else {
-            header("location: index.php?msg=Invalid Credentials");
+            header("location: index.php?msg=Invalid Credentials test");
         }
 
 
