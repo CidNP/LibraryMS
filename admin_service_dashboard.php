@@ -262,8 +262,8 @@ elseif($msg=="fail"){
             <label>Email:</label><input  type="email" name="addemail"/></br>
             <label for="typw">Choose type:</label>
             <select name="type" >
-                <option value="student">student</option>
-                <option value="teacher">teacher</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
             </select>
 
             <input type="submit" value="SUBMIT"/>
