@@ -76,7 +76,7 @@ if(!empty($_REQUEST['msg'])){
 <div class="container login-container">
 <div class="row"><h4><?php echo $msg?></h4></div>
             <div class="row">
-<!--  
+ 
                 <div class="col-md-6 login-form-3">
                     <h3>Admin Login</h3>
                     <form action="loginadmin_server_page.php" method="get">
@@ -92,10 +92,10 @@ if(!empty($_REQUEST['msg'])){
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
                     </form>
-                </div> -->
+                </div>
 
-          
-                <div class="col-md-6 login-form-1">
+                
+                <!-- <div class="col-md-6 login-form-1">
                     <h3>Faculty and Student Login</h3>
                     <form action="login_server_page.php" method="get">
                         <div class="form-group">
@@ -109,12 +109,8 @@ if(!empty($_REQUEST['msg'])){
                         <div class="form-group">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
-                        <div class="form-group">
-                        <input type="checkbox" name="login_admin">
-                            <label for=""> Click here if you are admin.</label><br>
-                        </div>
                     </form>
-                </div>
+                </div> -->
 
 
             </div>

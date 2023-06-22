@@ -4,7 +4,7 @@ include("data_class.php");
 
 $login_email=$_GET['login_email'];
 $login_pasword=$_GET['login_pasword'];
-
+$login_admin=$_GET['login_admin'];
 
 if($login_email==null||$login_pasword==null){
     $emailmsg="";
@@ -23,6 +23,15 @@ if($login_email==null||$login_pasword==null){
 elseif($login_email!=null&&$login_pasword!=null){
     $obj=new data();
     $obj->setconnection();
-    $obj->userLogin($login_email,$login_pasword);
+
+    if($login_admin==true){
+        $obj->adminLogin($login_email,$login_pasword);
+    }
+    else{
+        $obj->userLogin($login_email,$login_pasword);
+    }
+    
+
+    
 
 }
