@@ -200,7 +200,7 @@ elseif($msg=="fail"){
             $recordset=$u->requestbookdata();
 
             $table="<table style='font-family: Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;'><tr><th style='
-            padding: 8px;'>Person Name</th><th>person type</th><th>Book name</th><th>Days </th><th>Approve</th></tr>";
+            padding: 8px;'>Person Name</th><th>Person Type</th><th>Book name</th><th>Days </th><th>Approve</th></tr>";
             foreach($recordset as $row){
                 $table.="<tr>";
                "<td>$row[0]</td>";
@@ -433,7 +433,7 @@ issue book -->
             $recordset=$u->getbook();
 
             $table="<table style='font-family: Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;'><tr><th style=' 
-            padding: 8px;'>Book Name</th><th>Price</th><th>Qnt</th><th>Available</th><th>Rent</th></th><th>View</th></tr>";
+            padding: 8px;'>Book Name</th><th>Price</th><th>Quantity</th><th>Available</th><th>Rent</th></th><th>View</th></tr>";
             foreach($recordset as $row){
                 $table.="<tr>";
                "<td>$row[0]</td>";
