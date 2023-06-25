@@ -96,7 +96,7 @@ if(!empty($_REQUEST['msg'])){
 
           
                 <div class="col-md-6 login-form-1">
-                    <h3>Faculty and Student Login</h3>
+                    <h3>Login to your Account</h3>
                     <form action="login_server_page.php" method="get">
                         <div class="form-group">
                             <input type="text" class="form-control" name="login_email" placeholder="Your Email *" value="" />
