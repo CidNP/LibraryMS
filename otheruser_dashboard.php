@@ -18,7 +18,7 @@ $userloginid=$_SESSION["userid"] = $_GET['userlogid'];
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Admin Dashboard</title>
+        <title>Client Dashboard</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -99,6 +99,7 @@ td, a{
                 <Button class="greenbtn" onclick="openpart('myaccount')"> <img class="icons" src="images/icon/profile.png" width="30px" height="30px"/>  My Account</Button>
                 <Button class="greenbtn" onclick="openpart('requestbook')"><img class="icons" src="images/icon/book.png" width="30px" height="30px"/> Request Book</Button>
                 <Button class="greenbtn" onclick="openpart('issuereport')"> <img class="icons" src="images/icon/monitoring.png" width="30px" height="30px"/>  Book Report</Button>
+                <Button class="greenbtn" onclick="openpart('requestbook')"> <img class="icons" src="images/icon/.png" width="30px" height="30px"/>  Author Detail</Button>
                 <a href="index.php"><Button class="greenbtn" ><img class="icons" src="images/icon/logout.png" width="30px" height="30px"/> LOGOUT</Button></a>
             </div>
 
@@ -222,6 +223,10 @@ td, a{
 
             </div>
             </div>
+
+                <!-- Author Details -->
+
+ 
 
         </div>
         </div>

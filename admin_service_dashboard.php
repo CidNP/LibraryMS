@@ -186,6 +186,7 @@ elseif($msg=="fail"){
                 <Button class="greenbtn" onclick="openpart('studentrecord')"> <img class="icons" src="images/icon/monitoring.png" width="30px" height="30px"/> MEMBER RECORD</Button>
                 <Button class="greenbtn"  onclick="openpart('issuebook')"> <img class="icons" src="images/icon/test.png" width="30px" height="30px"/> ISSUE BOOK</Button>
                 <Button class="greenbtn" onclick="openpart('issuebookreport')"> <img class="icons" src="images/icon/checklist.png" width="30px" height="30px"/> BOOK REPORT</Button>
+                <Button class="greenbtn" onclick="openpart('issuebookreport')"> <img class="icons" src="images/icon/profile.png" width="30px" height="30px"/> Author</Button>
                 <a href="index.php"><Button class="greenbtn" ><img class="icons" src="images/icon/book.png" width="30px" height="30px"/> LOGOUT</Button></a>
             </div>
 
@@ -235,7 +236,7 @@ elseif($msg=="fail"){
             <label>Detail:</label><input  type="text" name="bookdetail"/></br>
             <label>Autor:</label><input type="text" name="bookaudor"/></br>
             <label>Publication</label><input type="text" name="bookpub"/></br>
-            <div><label>Branch:</label><input type="radio" name="branch" value="other"/>Other<input type="radio" name="branch" value="BSIT"/>BSIT<div style="margin-left:80px"><input type="radio" name="branch" value="BSCS"/>BSCS<input type="radio" name="branch" value="BSSE"/>BSSE</div>
+            <div><label>Branch:</label><input type="radio" name="branch" value="BBA"/>BBA<input type="radio" name="branch" value="BBIS"/>BBIS<div style="margin-left:80px"><input type="radio" name="branch" value="BHM"/>BHM<input type="radio" name="branch" value="BCA"/>BCA</div>
             </div>   
             <label>Price:</label><input  type="number" name="bookprice"/></br>
             <label>Quantity:</label><input type="number" name="bookquantity"/></br>
